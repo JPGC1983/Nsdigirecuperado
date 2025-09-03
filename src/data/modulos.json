@@ -1,0 +1,530 @@
+{
+  "modulos": [
+    {
+      "id": 1,
+      "titulo": "Fundamentos da Saúde Digital",
+      "descricao": "Introdução aos conceitos básicos e tecnologias da saúde digital, compreendendo sua importância para o SUS e a transformação digital na área da saúde.",
+      "duracao": "2 horas",
+      "tags": ["Conceitos Básicos", "Tecnologias", "Tendências", "SUS Digital"],
+      "corIcone": "from-blue-400 to-blue-500",
+      "videoUrl": "",
+      "resumo": "Este módulo apresenta os fundamentos da saúde digital, explorando conceitos essenciais como interoperabilidade, prontuário eletrônico e telemedicina. Você compreenderá como a tecnologia está transformando o cuidado em saúde e qual o papel do SUS nesta transformação.",
+      "aplicacoesPraticas": [
+        "Identificar oportunidades de digitalização em sua unidade de saúde",
+        "Compreender os benefícios da saúde digital para gestores e usuários",
+        "Aplicar conceitos básicos em projetos de transformação digital",
+        "Mapear fluxos de atendimento para digitalização",
+        "Desenvolver indicadores de qualidade para saúde digital"
+      ],
+      "linksUteis": [
+        {
+          "titulo": "Manual SUS Digital",
+          "url": "/Manual_SUS_Digital.pdf",
+          "descricao": "Manual completo de Saúde Digital para o SUS"
+        },
+        {
+          "titulo": "Estratégia de Saúde Digital para o Brasil 2020-2028",
+          "url": "https://bvsms.saude.gov.br/bvs/publicacoes/estrategia_saude_digital_Brasil.pdf",
+          "descricao": "Documento oficial do Ministério da Saúde"
+        },
+        {
+          "titulo": "1º Relatório de Monitoramento da Estratégia de Saúde Digital",
+          "url": "https://bvsms.saude.gov.br/bvs/publicacoes/relatorio_monitoramento_estrategia_saude_digital.pdf",
+          "descricao": "Relatório oficial de monitoramento e avaliação"
+        }
+      ],
+      "secoes": [
+        {
+          "titulo": "O que é Saúde Digital?",
+          "conteudo": "A saúde digital representa a integração de tecnologias digitais no setor da saúde, visando melhorar a qualidade do cuidado, aumentar a eficiência dos serviços e empoderar pacientes e profissionais de saúde. No contexto do SUS, a saúde digital é uma estratégia fundamental para garantir acesso universal e equitativo aos serviços de saúde, especialmente em um país continental como o Brasil. A transformação digital na saúde não se limita apenas à informatização de processos, mas envolve uma mudança cultural e organizacional que prioriza a experiência do usuário e a qualidade do cuidado.",
+          "pontosChave": [
+            "Transformação digital no setor da saúde",
+            "Integração de tecnologias e sistemas",
+            "Foco na melhoria da qualidade do cuidado",
+            "Acesso universal e equitativo no SUS",
+            "Mudança cultural e organizacional"
+          ]
+        },
+        {
+          "titulo": "Tecnologias Emergentes na Saúde",
+          "conteudo": "As tecnologias emergentes estão revolucionando a forma como prestamos e recebemos cuidados em saúde. A Inteligência Artificial (IA) está sendo utilizada para diagnóstico precoce, predição de riscos e personalização de tratamentos. A Internet das Coisas (IoT) permite o monitoramento remoto de pacientes e a gestão inteligente de equipamentos médicos. O Blockchain garante a segurança e integridade dos dados de saúde, enquanto o Big Data e Analytics fornecem insights valiosos para tomada de decisão baseada em evidências. Estas tecnologias, quando aplicadas de forma ética e responsável, podem transformar radicalmente a qualidade e eficiência dos serviços de saúde.",
+          "pontosChave": [
+            "Inteligência Artificial para diagnóstico e predição",
+            "Internet das Coisas para monitoramento remoto",
+            "Blockchain para segurança de dados",
+            "Big Data e Analytics para tomada de decisão",
+            "Aplicação ética e responsável das tecnologias"
+          ]
+        },
+        {
+          "titulo": "A Jornada da Dona Marta - Caso Prático",
+          "conteudo": "Vamos acompanhar a jornada da Dona Marta, uma paciente de 65 anos que mora em uma cidade do interior de Minas Gerais. Através do prontuário eletrônico integrado, sua médica da atenção básica identifica que ela precisa de uma consulta com cardiologista. O sistema agenda automaticamente a teleconsulta, e Dona Marta recebe um SMS com o link para acessar a consulta. Durante a consulta, o cardiologista tem acesso ao histórico completo da paciente, incluindo exames recentes. O sistema também identifica que ela precisa de medicamentos e agenda a retirada na farmácia mais próxima de sua casa. Este caso ilustra como a saúde digital pode transformar a experiência do usuário, reduzindo deslocamentos e melhorando a continuidade do cuidado.",
+          "pontosChave": [
+            "Integração entre diferentes níveis de atenção",
+            "Telemedicina para acesso especializado",
+            "Gestão de medicamentos integrada",
+            "Redução de deslocamentos desnecessários",
+            "Melhoria na continuidade do cuidado"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Telemedicina e Telessaúde",
+      "descricao": "Aplicações práticas e regulamentações da telemedicina no contexto do SUS, incluindo teleconsultoria, telediagnóstico e telemonitoramento.",
+      "duracao": "2 horas",
+      "tags": ["Telemedicina", "Regulamentações", "Práticas", "SUS"],
+      "corIcone": "from-green-400 to-green-500",
+      "videoUrl": "",
+      "resumo": "A telemedicina representa uma das principais inovações da saúde digital, permitindo o atendimento remoto e a troca de informações médicas à distância. Este módulo aborda as regulamentações, aplicações práticas e casos de sucesso no SUS.",
+      "aplicacoesPraticas": [
+        "Implementar teleconsultoria em sua unidade",
+        "Utilizar ferramentas de telediagnóstico",
+        "Gerenciar equipes de telemedicina",
+        "Configurar salas de telemedicina",
+        "Desenvolver protocolos de atendimento remoto"
+      ],
+      "linksUteis": [
+        {
+          "titulo": "Manual SUS Digital",
+          "url": "/Manual_SUS_Digital.pdf",
+          "descricao": "Manual completo de Saúde Digital para o SUS"
+        },
+
+        {
+          "titulo": "Manual de Telessaúde",
+          "url": "https://www.gov.br/ans/pt-br/centrais-de-conteudo/ms-telessaude-manual-2019-pdf",
+          "descricao": "Guia prático para implementação"
+        },
+        {
+          "titulo": "Protocolo de Telemedicina do SUS",
+          "url": "https://bvsms.saude.gov.br/bvs/publicacoes/manual_telessaude_atencao_basica.pdf",
+          "descricao": "Protocolos oficiais do Ministério da Saúde"
+        }
+      ],
+      "secoes": [
+        {
+          "titulo": "Fundamentos da Telemedicina",
+          "conteudo": "A telemedicina é a prática médica realizada à distância, utilizando tecnologias de informação e comunicação para prestar assistência médica. A Resolução CFM nº 2.314/2022 estabelece as diretrizes para a prática da telemedicina no Brasil, definindo modalidades como teleconsulta, telediagnóstico, telemonitoramento e telecirurgia. É fundamental compreender que a telemedicina não substitui o atendimento presencial, mas complementa e amplia o acesso aos serviços de saúde, especialmente em regiões remotas ou com escassez de especialistas.",
+          "pontosChave": [
+            "Definição e conceitos básicos da telemedicina",
+            "Modalidades: teleconsulta, telediagnóstico, telemonitoramento",
+            "Aspectos legais e éticos da prática remota",
+            "Complementaridade com atendimento presencial",
+            "Ampliação do acesso em regiões remotas"
+          ]
+        },
+        {
+          "titulo": "Implementação no SUS",
+          "conteudo": "O SUS tem implementado a telemedicina de forma estratégica para ampliar o acesso à saúde, especialmente em regiões com dificuldade de acesso a especialistas. O Programa Nacional de Telessaúde (PNT) coordena as ações de telemedicina no país, conectando unidades de saúde remotas com centros de referência. Casos de sucesso incluem o Telecardio, que conecta unidades básicas de saúde com cardiologistas para interpretação de eletrocardiogramas, e o Telerradiologia, que permite a interpretação de exames de imagem à distância. A implementação requer infraestrutura adequada, capacitação de profissionais e integração com sistemas de informação.",
+          "pontosChave": [
+            "Programa Nacional de Telessaúde (PNT)",
+            "Telecardio para interpretação de ECG",
+            "Telerradiologia para exames de imagem",
+            "Infraestrutura e capacitação necessárias",
+            "Integração com sistemas de informação"
+          ]
+        },
+        {
+          "titulo": "Casos de Sucesso - Telecardio em Minas Gerais",
+          "conteudo": "O Telecardio de Minas Gerais é um exemplo emblemático de sucesso na implementação da telemedicina no SUS. O programa conecta 853 municípios mineiros com cardiologistas do Hospital das Clínicas da UFMG. Em 2022, foram realizadas mais de 50.000 interpretações de eletrocardiogramas, com tempo médio de resposta de 15 minutos. O programa reduziu em 80% o tempo de espera para consulta cardiológica e evitou deslocamentos desnecessários em 70% dos casos. A iniciativa demonstra como a telemedicina pode transformar o acesso à saúde especializada, especialmente em regiões com escassez de cardiologistas.",
+          "pontosChave": [
+            "Cobertura de 853 municípios mineiros",
+            "50.000+ interpretações de ECG em 2022",
+            "Tempo médio de resposta: 15 minutos",
+            "Redução de 80% no tempo de espera",
+            "Evitou 70% dos deslocamentos desnecessários"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "Prontuário Eletrônico",
+      "descricao": "Gestão e implementação de prontuários eletrônicos, incluindo segurança, interoperabilidade e conformidade com regulamentações.",
+      "duracao": "2 horas",
+      "tags": ["Sistemas", "Segurança", "Implementação", "RNDS"],
+      "corIcone": "from-blue-300 to-blue-400",
+      "videoUrl": "",
+      "resumo": "O prontuário eletrônico é fundamental para a digitalização da saúde. Este módulo aborda sua implementação, segurança e integração com a Rede Nacional de Dados em Saúde (RNDS).",
+      "aplicacoesPraticas": [
+        "Implementar prontuário eletrônico",
+        "Garantir segurança e privacidade",
+        "Integrar com RNDS",
+        "Configurar controle de acesso",
+        "Desenvolver políticas de backup e recuperação"
+      ],
+      "linksUteis": [
+        {
+          "titulo": "Manual SUS Digital",
+          "url": "/Manual_SUS_Digital.pdf",
+          "descricao": "Manual completo de Saúde Digital para o SUS"
+        },
+        {
+          "titulo": "Manual RNDS",
+          "url": "https://www.gov.br/saude/pt-br/assuntos/saude-digital/rnds",
+          "descricao": "Documentação oficial da RNDS"
+        },
+        {
+          "titulo": "Guia de Segurança",
+          "url": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_seguranca_saude_digital.pdf",
+          "descricao": "Boas práticas de segurança"
+        },
+        {
+          "titulo": "Normas para Prontuário Eletrônico",
+          "url": "https://www.gov.br/anvisa/pt-br/assuntos/regulamentacao/legislacao",
+          "descricao": "Regulamentações da ANVISA"
+        }
+      ],
+      "secoes": [
+        {
+          "titulo": "Conceitos e Benefícios do PEP",
+          "conteudo": "O Prontuário Eletrônico do Paciente (PEP) é o conjunto de informações digitais sobre a saúde do paciente, organizadas de forma sistemática e acessível aos profissionais de saúde autorizados. Em comparação com o prontuário em papel, o PEP oferece inúmeras vantagens: melhor organização das informações, acesso simultâneo por múltiplos profissionais, alertas automáticos para interações medicamentosas, histórico completo do paciente e integração com outros sistemas de saúde. A implementação do PEP é fundamental para a continuidade do cuidado e para a qualidade da assistência prestada.",
+          "pontosChave": [
+            "Definição e conceitos do PEP",
+            "Vantagens sobre prontuário em papel",
+            "Organização sistemática das informações",
+            "Acesso simultâneo por múltiplos profissionais",
+            "Integração com outros sistemas de saúde"
+          ]
+        },
+        {
+          "titulo": "Segurança e Privacidade no PEP",
+          "conteudo": "A segurança e privacidade dos dados do paciente são aspectos críticos na implementação do prontuário eletrônico. A conformidade com a LGPD (Lei Geral de Proteção de Dados) é obrigatória, exigindo medidas como controle rigoroso de acesso, criptografia de dados, auditoria completa de todas as ações e notificação de incidentes de segurança. O controle de acesso deve ser baseado no princípio do menor privilégio, garantindo que cada profissional tenha acesso apenas às informações necessárias para sua função. A rastreabilidade é essencial para auditoria e responsabilização.",
+          "pontosChave": [
+            "Conformidade com LGPD",
+            "Controle rigoroso de acesso",
+            "Criptografia de dados sensíveis",
+            "Auditoria completa de ações",
+            "Notificação de incidentes de segurança"
+          ]
+        },
+        {
+          "titulo": "Integração com RNDS",
+          "conteudo": "A Rede Nacional de Dados em Saúde (RNDS) é a infraestrutura nacional que permite a troca de informações entre diferentes sistemas de saúde. A integração do PEP com a RNDS é fundamental para garantir a continuidade do cuidado, permitindo que informações do paciente sejam compartilhadas de forma segura entre diferentes unidades de saúde. A RNDS utiliza padrões internacionais como HL7 FHIR para garantir a interoperabilidade entre sistemas. A implementação da integração requer conformidade com os padrões técnicos estabelecidos pelo Ministério da Saúde e certificação dos sistemas.",
+          "pontosChave": [
+            "RNDS como infraestrutura nacional",
+            "Troca segura de informações",
+            "Padrões HL7 FHIR",
+            "Conformidade com padrões técnicos",
+            "Certificação de sistemas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "Inteligência Artificial na Saúde",
+             "descricao": "Aplicações de IA e machine learning na área médica, incluindo diagnóstico assistido, predição de doenças e otimização de processos.",
+       "duracao": "2 horas",
+      "tags": ["IA", "Machine Learning", "Aplicações", "Inovação"],
+      "corIcone": "from-green-300 to-green-400",
+      "videoUrl": "",
+      "resumo": "A inteligência artificial está revolucionando a medicina, oferecendo novas possibilidades de diagnóstico, tratamento e gestão. Este módulo explora as principais aplicações e desafios da IA na saúde.",
+      "aplicacoesPraticas": [
+        "Identificar oportunidades de IA na sua área",
+        "Avaliar ferramentas de IA para diagnóstico",
+        "Implementar processos baseados em IA"
+      ],
+      "linksUteis": [
+        {
+          "titulo": "Manual SUS Digital",
+          "url": "/Manual_SUS_Digital.pdf",
+          "descricao": "Manual completo de Saúde Digital para o SUS"
+        },
+        {
+          "titulo": "Guia de IA em Saúde",
+          "url": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_ia_saude.pdf",
+          "descricao": "Documento da OMS sobre IA"
+        },
+        {
+          "titulo": "Casos de Uso",
+          "url": "#",
+          "descricao": "Exemplos práticos de aplicação"
+        }
+      ],
+      "secoes": [
+        {
+          "titulo": "Fundamentos de IA",
+          "conteudo": "Compreensão dos conceitos básicos de inteligência artificial e machine learning aplicados à saúde.",
+          "pontosChave": [
+            "Conceitos de machine learning",
+            "Tipos de algoritmos",
+            "Validação e confiabilidade"
+          ]
+        },
+        {
+          "titulo": "Aplicações Práticas",
+          "conteudo": "Principais aplicações da IA na saúde, desde diagnóstico por imagem até predição de riscos.",
+          "pontosChave": [
+            "Diagnóstico por imagem",
+            "Análise de dados clínicos",
+            "Predição de riscos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titulo": "Segurança e Privacidade",
+             "descricao": "Proteção de dados e conformidade regulatória, incluindo LGPD, segurança da informação e boas práticas.",
+       "duracao": "2 horas",
+      "tags": ["LGPD", "Segurança", "Conformidade", "Proteção"],
+      "corIcone": "from-blue-400 to-blue-500",
+      "videoUrl": "",
+      "resumo": "A segurança da informação é crítica na saúde digital. Este módulo aborda a LGPD, boas práticas de segurança e como proteger dados sensíveis de pacientes.",
+      "aplicacoesPraticas": [
+        "Implementar políticas de segurança",
+        "Conformidade com LGPD",
+        "Treinar equipes em segurança"
+      ],
+      "linksUteis": [
+        {
+          "titulo": "Manual SUS Digital",
+          "url": "/Manual_SUS_Digital.pdf",
+          "descricao": "Manual completo de Saúde Digital para o SUS"
+        },
+        {
+          "titulo": "LGPD - Lei Geral de Proteção de Dados",
+          "url": "https://www.gov.br/cidadania/pt-br/acesso-a-informacao/lgpd",
+          "descricao": "Legislação completa"
+        },
+        {
+          "titulo": "Guia de Segurança",
+          "url": "#",
+          "descricao": "Boas práticas para saúde"
+        }
+      ],
+      "secoes": [
+        {
+          "titulo": "LGPD na Saúde",
+          "conteudo": "Como a Lei Geral de Proteção de Dados se aplica ao setor da saúde e quais são as obrigações das organizações.",
+          "pontosChave": [
+            "Princípios da LGPD",
+            "Bases legais para tratamento",
+            "Direitos dos titulares"
+          ]
+        },
+        {
+          "titulo": "Segurança da Informação",
+          "conteudo": "Boas práticas de segurança da informação aplicadas ao contexto da saúde digital.",
+          "pontosChave": [
+            "Controle de acesso",
+            "Criptografia de dados",
+            "Gestão de incidentes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titulo": "Inovação em Saúde",
+             "descricao": "Tendências e tecnologias emergentes na saúde, incluindo startups, novos modelos de negócio e transformação digital.",
+       "duracao": "2 horas",
+      "tags": ["Inovação", "Tendências", "Futuro", "Startups"],
+      "corIcone": "from-green-400 to-green-500",
+      "videoUrl": "",
+      "resumo": "A inovação está acelerando a transformação da saúde. Este módulo explora as principais tendências, tecnologias emergentes e como elas estão moldando o futuro da medicina.",
+      "aplicacoesPraticas": [
+        "Identificar oportunidades de inovação",
+        "Avaliar novas tecnologias",
+        "Implementar projetos inovadores"
+      ],
+      "linksUteis": [
+        {
+          "titulo": "Manual SUS Digital",
+          "url": "/Manual_SUS_Digital.pdf",
+          "descricao": "Manual completo de Saúde Digital para o SUS"
+        },
+        {
+          "titulo": "Tendências em Saúde Digital",
+          "url": "#",
+          "descricao": "Relatório anual de tendências"
+        },
+        {
+          "titulo": "Ecossistema de Inovação",
+          "url": "#",
+          "descricao": "Mapa de startups e empresas"
+        }
+      ],
+      "secoes": [
+        {
+          "titulo": "Tendências Globais",
+          "conteudo": "Principais tendências em saúde digital no mundo e como elas podem ser aplicadas no contexto brasileiro.",
+          "pontosChave": [
+            "Tecnologias emergentes",
+            "Novos modelos de cuidado",
+            "Transformação de processos"
+          ]
+        },
+        {
+          "titulo": "Ecossistema de Inovação",
+          "conteudo": "Como o ecossistema de inovação em saúde funciona e como participar dele.",
+          "pontosChave": [
+            "Startups de saúde",
+            "Parcerias público-privadas",
+            "Investimentos e financiamento"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titulo": "Gestão de Dados",
+             "descricao": "Big data e analytics na saúde digital, incluindo coleta, análise e uso de dados para tomada de decisão.",
+       "duracao": "2 horas",
+      "tags": ["Big Data", "Analytics", "Gestão", "Decisão"],
+      "corIcone": "from-blue-300 to-blue-400",
+      "videoUrl": "",
+      "resumo": "Os dados são o novo petróleo da saúde. Este módulo aborda como coletar, analisar e usar dados para melhorar a qualidade do cuidado e a eficiência dos serviços.",
+      "aplicacoesPraticas": [
+        "Implementar coleta de dados",
+        "Criar dashboards analíticos",
+        "Usar dados para decisões"
+      ],
+      "linksUteis": [
+        {
+          "titulo": "Manual SUS Digital",
+          "url": "/Manual_SUS_Digital.pdf",
+          "descricao": "Manual completo de Saúde Digital para o SUS"
+        },
+        {
+          "titulo": "Manual de Analytics",
+          "url": "#",
+          "descricao": "Guia prático de análise de dados"
+        },
+        {
+          "titulo": "Ferramentas de BI",
+          "url": "#",
+          "descricao": "Comparativo de ferramentas"
+        }
+      ],
+      "secoes": [
+        {
+          "titulo": "Big Data na Saúde",
+          "conteudo": "Como o big data está transformando a saúde e quais são as principais fontes de dados.",
+          "pontosChave": [
+            "Fontes de dados em saúde",
+            "Volume, velocidade e variedade",
+            "Desafios de qualidade"
+          ]
+        },
+        {
+          "titulo": "Analytics e Business Intelligence",
+          "conteudo": "Ferramentas e técnicas para análise de dados em saúde e tomada de decisão baseada em evidências.",
+          "pontosChave": [
+            "Dashboards e visualizações",
+            "Indicadores de performance",
+            "Predição e machine learning"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "titulo": "Interoperabilidade",
+             "descricao": "Padrões e protocolos para integração de sistemas, incluindo HL7 FHIR, RNDS e arquitetura de sistemas.",
+       "duracao": "2 horas",
+      "tags": ["Padrões", "Protocolos", "Integração", "FHIR"],
+      "corIcone": "from-green-300 to-green-400",
+      "videoUrl": "",
+      "resumo": "A interoperabilidade é fundamental para conectar diferentes sistemas de saúde. Este módulo aborda padrões, protocolos e como implementar integração entre sistemas.",
+      "aplicacoesPraticas": [
+        "Implementar integração de sistemas",
+        "Usar padrões HL7 FHIR",
+        "Conectar com RNDS"
+      ],
+      "linksUteis": [
+        {
+          "titulo": "Manual SUS Digital",
+          "url": "/Manual_SUS_Digital.pdf",
+          "descricao": "Manual completo de Saúde Digital para o SUS"
+        },
+        {
+          "titulo": "Especificação HL7 FHIR",
+          "url": "https://www.hl7.org/fhir/",
+          "descricao": "Documentação oficial FHIR"
+        },
+        {
+          "titulo": "Guia RNDS",
+          "url": "#",
+          "descricao": "Como conectar com RNDS"
+        }
+      ],
+      "secoes": [
+        {
+          "titulo": "Conceitos de Interoperabilidade",
+          "conteudo": "Compreensão dos conceitos fundamentais de interoperabilidade e sua importância na saúde digital.",
+          "pontosChave": [
+            "Definição de interoperabilidade",
+            "Níveis de interoperabilidade",
+            "Benefícios e desafios"
+          ]
+        },
+        {
+          "titulo": "Padrões e Protocolos",
+          "conteudo": "Principais padrões e protocolos utilizados na interoperabilidade em saúde, incluindo HL7 FHIR.",
+          "pontosChave": [
+            "HL7 FHIR",
+            "DICOM para imagens",
+            "IHE (Integrating the Healthcare Enterprise)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "titulo": "Manual SUS Digital",
+      "descricao": "Manual completo de Saúde Digital para o SUS - Documento oficial com diretrizes, procedimentos e implementação da saúde digital no Sistema Único de Saúde.",
+       "duracao": "2 horas",
+      "tags": ["Manual", "Documentação", "SUS Digital", "Referência"],
+      "corIcone": "from-blue-400 to-blue-500",
+      "videoUrl": "",
+      "resumo": "Manual oficial do SUS Digital com diretrizes completas para implementação da saúde digital no Sistema Único de Saúde. Documento de referência essencial para gestores e profissionais de saúde.",
+      "aplicacoesPraticas": [
+        "Consultar diretrizes oficiais do SUS Digital",
+        "Implementar práticas recomendadas",
+        "Referenciar procedimentos padronizados",
+        "Aplicar normas e regulamentações"
+      ],
+      "linksUteis": [
+        {
+          "titulo": "Manual SUS Digital",
+          "url": "/Manual_SUS_Digital.pdf",
+          "descricao": "Manual completo de Saúde Digital para o SUS"
+        },
+        {
+          "titulo": "Normas Técnicas",
+          "url": "#",
+          "descricao": "Catálogo de normas aplicáveis"
+        },
+        {
+          "titulo": "Guia de Auditoria",
+          "url": "#",
+          "descricao": "Checklist para auditorias"
+        }
+      ],
+      "secoes": [
+        {
+          "titulo": "Normas e Regulamentações",
+          "conteudo": "Principais normas e regulamentações aplicáveis à saúde digital no Brasil e internacionalmente.",
+          "pontosChave": [
+            "Normas ABNT",
+            "Regulamentações ANVISA",
+            "Padrões internacionais"
+          ]
+        },
+        {
+          "titulo": "Processos de Certificação",
+          "conteudo": "Como funciona o processo de certificação de sistemas de saúde digital e quais são os requisitos.",
+          "pontosChave": [
+            "Tipos de certificação",
+            "Processo de avaliação",
+            "Manutenção da certificação"
+          ]
+        }
+      ]
+    }
+  ]
+} 

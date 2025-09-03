@@ -1,0 +1,16 @@
+# SUS Digital - Plataforma Educacional
+# Robots.txt para controle de indexação
+
+User-agent: *
+Allow: /
+
+# Bloquear acesso a arquivos sensíveis
+Disallow: /src/
+Disallow: /node_modules/
+Disallow: /public/quiz_export_cursor.zip
+
+# Sitemap (quando disponível)
+# Sitemap: https://sus-digital.com/sitemap.xml
+
+# Configurações para melhorar performance
+Crawl-delay: 1
