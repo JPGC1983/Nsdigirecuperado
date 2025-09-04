@@ -7,7 +7,7 @@
       "duracao": "2 horas",
       "tags": ["Conceitos Básicos", "Tecnologias", "Tendências", "SUS Digital"],
       "corIcone": "from-blue-400 to-blue-500",
-      "videoUrl": "",
+      "videoUrl": "/Fundamentos_da_Saúde_Digital%20(1).mp4",
       "resumo": "Este módulo apresenta os fundamentos da saúde digital, explorando conceitos essenciais como interoperabilidade, prontuário eletrônico e telemedicina. Você compreenderá como a tecnologia está transformando o cuidado em saúde e qual o papel do SUS nesta transformação.",
       "aplicacoesPraticas": [
         "Identificar oportunidades de digitalização em sua unidade de saúde",
@@ -215,58 +215,6 @@
     },
     {
       "id": 4,
-      "titulo": "Inteligência Artificial na Saúde",
-             "descricao": "Aplicações de IA e machine learning na área médica, incluindo diagnóstico assistido, predição de doenças e otimização de processos.",
-       "duracao": "2 horas",
-      "tags": ["IA", "Machine Learning", "Aplicações", "Inovação"],
-      "corIcone": "from-green-300 to-green-400",
-      "videoUrl": "",
-      "resumo": "A inteligência artificial está revolucionando a medicina, oferecendo novas possibilidades de diagnóstico, tratamento e gestão. Este módulo explora as principais aplicações e desafios da IA na saúde.",
-      "aplicacoesPraticas": [
-        "Identificar oportunidades de IA na sua área",
-        "Avaliar ferramentas de IA para diagnóstico",
-        "Implementar processos baseados em IA"
-      ],
-      "linksUteis": [
-        {
-          "titulo": "Manual SUS Digital",
-          "url": "/Manual_SUS_Digital.pdf",
-          "descricao": "Manual completo de Saúde Digital para o SUS"
-        },
-        {
-          "titulo": "Guia de IA em Saúde",
-          "url": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_ia_saude.pdf",
-          "descricao": "Documento da OMS sobre IA"
-        },
-        {
-          "titulo": "Casos de Uso",
-          "url": "#",
-          "descricao": "Exemplos práticos de aplicação"
-        }
-      ],
-      "secoes": [
-        {
-          "titulo": "Fundamentos de IA",
-          "conteudo": "Compreensão dos conceitos básicos de inteligência artificial e machine learning aplicados à saúde.",
-          "pontosChave": [
-            "Conceitos de machine learning",
-            "Tipos de algoritmos",
-            "Validação e confiabilidade"
-          ]
-        },
-        {
-          "titulo": "Aplicações Práticas",
-          "conteudo": "Principais aplicações da IA na saúde, desde diagnóstico por imagem até predição de riscos.",
-          "pontosChave": [
-            "Diagnóstico por imagem",
-            "Análise de dados clínicos",
-            "Predição de riscos"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 5,
       "titulo": "Segurança e Privacidade",
              "descricao": "Proteção de dados e conformidade regulatória, incluindo LGPD, segurança da informação e boas práticas.",
        "duracao": "2 horas",
@@ -318,7 +266,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "titulo": "Inovação em Saúde",
              "descricao": "Tendências e tecnologias emergentes na saúde, incluindo startups, novos modelos de negócio e transformação digital.",
        "duracao": "2 horas",
@@ -370,18 +318,18 @@
       ]
     },
     {
-      "id": 7,
-      "titulo": "Gestão de Dados",
-             "descricao": "Big data e analytics na saúde digital, incluindo coleta, análise e uso de dados para tomada de decisão.",
+      "id": 6,
+      "titulo": "Inteligência Artificial na Saúde",
+             "descricao": "Aplicações de IA e machine learning na área médica, incluindo diagnóstico assistido, predição de doenças e otimização de processos.",
        "duracao": "2 horas",
-      "tags": ["Big Data", "Analytics", "Gestão", "Decisão"],
-      "corIcone": "from-blue-300 to-blue-400",
+      "tags": ["IA", "Machine Learning", "Aplicações", "Inovação"],
+      "corIcone": "from-green-300 to-green-400",
       "videoUrl": "",
-      "resumo": "Os dados são o novo petróleo da saúde. Este módulo aborda como coletar, analisar e usar dados para melhorar a qualidade do cuidado e a eficiência dos serviços.",
+      "resumo": "A inteligência artificial está revolucionando a medicina, oferecendo novas possibilidades de diagnóstico, tratamento e gestão. Este módulo explora as principais aplicações e desafios da IA na saúde.",
       "aplicacoesPraticas": [
-        "Implementar coleta de dados",
-        "Criar dashboards analíticos",
-        "Usar dados para decisões"
+        "Identificar oportunidades de IA na sua área",
+        "Avaliar ferramentas de IA para diagnóstico",
+        "Implementar processos baseados em IA"
       ],
       "linksUteis": [
         {
@@ -390,39 +338,39 @@
           "descricao": "Manual completo de Saúde Digital para o SUS"
         },
         {
-          "titulo": "Manual de Analytics",
-          "url": "#",
-          "descricao": "Guia prático de análise de dados"
+          "titulo": "Guia de IA em Saúde",
+          "url": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_ia_saude.pdf",
+          "descricao": "Documento da OMS sobre IA"
         },
         {
-          "titulo": "Ferramentas de BI",
+          "titulo": "Casos de Uso",
           "url": "#",
-          "descricao": "Comparativo de ferramentas"
+          "descricao": "Exemplos práticos de aplicação"
         }
       ],
       "secoes": [
         {
-          "titulo": "Big Data na Saúde",
-          "conteudo": "Como o big data está transformando a saúde e quais são as principais fontes de dados.",
+          "titulo": "Fundamentos de IA",
+          "conteudo": "Compreensão dos conceitos básicos de inteligência artificial e machine learning aplicados à saúde.",
           "pontosChave": [
-            "Fontes de dados em saúde",
-            "Volume, velocidade e variedade",
-            "Desafios de qualidade"
+            "Conceitos de machine learning",
+            "Tipos de algoritmos",
+            "Validação e confiabilidade"
           ]
         },
         {
-          "titulo": "Analytics e Business Intelligence",
-          "conteudo": "Ferramentas e técnicas para análise de dados em saúde e tomada de decisão baseada em evidências.",
+          "titulo": "Aplicações Práticas",
+          "conteudo": "Principais aplicações da IA na saúde, desde diagnóstico por imagem até predição de riscos.",
           "pontosChave": [
-            "Dashboards e visualizações",
-            "Indicadores de performance",
-            "Predição e machine learning"
+            "Diagnóstico por imagem",
+            "Análise de dados clínicos",
+            "Predição de riscos"
           ]
         }
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "titulo": "Interoperabilidade",
              "descricao": "Padrões e protocolos para integração de sistemas, incluindo HL7 FHIR, RNDS e arquitetura de sistemas.",
        "duracao": "2 horas",
@@ -474,7 +422,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "titulo": "Manual SUS Digital",
       "descricao": "Manual completo de Saúde Digital para o SUS - Documento oficial com diretrizes, procedimentos e implementação da saúde digital no Sistema Único de Saúde.",
        "duracao": "2 horas",

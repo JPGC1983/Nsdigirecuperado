@@ -213,7 +213,215 @@ export const courseModulesContent: ModuleContent[] = [
   },
   {
     id: 4,
-    title: "Módulo 4: Leis e Regulamentações",
+    title: "Módulo 4: RNDS – Rede Nacional de Dados em Saúde",
+    duration: "2h",
+    description: "Como a interoperabilidade da RNDS funciona, como conectar à RNDS, integrar vs interoperar e a Rede Mineira de Dados em Saúde (RMDS).",
+    topics: ["Interoperabilidade RNDS", "Conexão à RNDS", "Integração vs Interoperação", "RMDS", "Arquitetura", "Big data", "Analytics", "Dashboards", "Indicadores", "Tomada de decisão"],
+    detailedContent: {
+      introduction: "A RNDS é a espinha dorsal da interoperabilidade em saúde no Brasil, conectando diferentes sistemas e permitindo o compartilhamento seguro de informações.",
+      sections: [
+        {
+          title: "Arquitetura da RNDS",
+          content: "Compreensão da estrutura técnica e organizacional da RNDS. Entendimento dos componentes e fluxos de dados através do padrão FHIR.",
+          keyPoints: [
+            "Componentes principais da RNDS",
+            "Padrões de interoperabilidade (HL7 FHIR integrado)",
+            "Segurança e privacidade dos dados",
+            "Arquitetura distribuída e escalável"
+          ]
+        },
+        {
+          title: "Conexão e Integração",
+          content: "Processos para conectar sistemas à RNDS e diferenças entre integração e interoperabilidade. Foco na experiência da RMDS.",
+          keyPoints: [
+            "Protocolos de conexão e APIs",
+            "Certificação de sistemas para RNDS",
+            "Gestão de dados e consentimento",
+            "Processo de homologação"
+          ]
+        },
+        {
+          title: "Experiência da RMDS",
+          content: "A experiência da Rede Mineira de Dados em Saúde como exemplo prático de implementação de interoperabilidade.",
+          keyPoints: [
+            "Histórico e evolução da RMDS",
+            "Casos de uso implementados",
+            "Lições aprendidas",
+            "Replicabilidade para outros estados"
+          ]
+        },
+        {
+          title: "Big Data em Saúde",
+          content: "Conceitos e aplicações de big data no contexto da saúde pública. Entendimento das fontes e técnicas de análise.",
+          keyPoints: [
+            "Fontes de dados em saúde (SIS, SINAN, etc.)",
+            "Técnicas de análise e mineração de dados",
+            "Aplicações práticas em saúde pública",
+            "Machine Learning em saúde"
+          ]
+        },
+        {
+          title: "Dashboards e Indicadores",
+          content: "Desenvolvimento e uso de dashboards para gestão em saúde. Foco na visualização e interpretação de dados.",
+          keyPoints: [
+            "Tipos de indicadores de saúde",
+            "Desenvolvimento de dashboards interativos",
+            "Interpretação de dados e tendências",
+            "Tomada de decisão baseada em dados"
+          ]
+        },
+        {
+          title: "Tomada de Decisão",
+          content: "Como usar dados para tomada de decisão em saúde pública. Análise preditiva e prescritiva.",
+          keyPoints: [
+            "Análise preditiva em saúde",
+            "Modelos de decisão",
+            "Avaliação de impacto",
+            "Monitoramento de resultados"
+          ]
+        }
+      ],
+      practicalExamples: [
+        "Conexão de sistemas municipais à RNDS",
+        "Experiência completa da RMDS",
+        "Casos de uso reais de interoperabilidade",
+        "Processo de certificação de sistemas",
+        "Implementação de APIs de saúde",
+        "Dashboards de gestão municipal em tempo real",
+        "Análise de indicadores de saúde pública",
+        "Tomada de decisão baseada em dados",
+        "Predição de surtos epidemiológicos",
+        "Otimização de recursos de saúde"
+      ],
+      activities: [
+        "Mapeamento de sistemas existentes no município",
+        "Planejamento de conexão à RNDS",
+        "Análise de interoperabilidade e padrões",
+        "Desenvolvimento de APIs de saúde",
+        "Simulação de processo de certificação",
+        "Desenvolvimento de indicadores de saúde",
+        "Criação de dashboards interativos",
+        "Análise de dados reais de saúde pública",
+        "Desenvolvimento de modelos preditivos",
+        "Simulação de tomada de decisão"
+      ],
+      resources: [
+        "Guia Oficial RNDS: https://rnds-guia.saude.gov.br/docs/introducao",
+        "Documentação técnica completa da RNDS",
+        "Guias de implementação de interoperabilidade",
+        "Ferramentas de desenvolvimento de APIs",
+        "Casos de estudo da RMDS",
+        "Ferramentas de análise de dados (R, Python, Power BI)",
+        "Guias de desenvolvimento de dashboards",
+        "Casos de estudo de análise em saúde",
+        "Datasets públicos de saúde",
+        "Tutoriais de Machine Learning em saúde"
+      ]
+    },
+    icon: "Database"
+  },
+  {
+    id: 5,
+    title: "Módulo 5: Programa SUS Digital e E-SUS APS",
+    duration: "3h",
+    description: "Meu SUS Digital, SUS Digital Profissional, SUS Digital Gestor e E-SUS APS - as principais plataformas e sistemas do programa SUS Digital.",
+    topics: ["Meu SUS Digital", "SUS Digital Profissional", "SUS Digital Gestor", "E-SUS APS", "Plataformas", "Funcionalidades"],
+    detailedContent: {
+      introduction: "O Programa SUS Digital representa a estratégia do Ministério da Saúde para digitalização dos serviços de saúde, incluindo as plataformas principais e o sistema E-SUS APS para Atenção Primária.",
+      sections: [
+        {
+          title: "Meu SUS Digital",
+          content: "Plataforma para cidadãos, permitindo acesso a serviços de saúde e informações pessoais. Interface amigável e acessível.",
+          keyPoints: [
+            "Funcionalidades para cidadãos (agendamento, resultados)",
+            "Acesso a resultados de exames",
+            "Agendamento de consultas e procedimentos",
+            "Histórico de atendimentos e vacinas"
+          ]
+        },
+        {
+          title: "SUS Digital Profissional",
+          content: "Ferramentas para profissionais de saúde, incluindo prontuário eletrônico e telemedicina. Interface especializada para médicos e enfermeiros.",
+          keyPoints: [
+            "Prontuário eletrônico do paciente (PEP)",
+            "Telemedicina e teleconsultoria",
+            "Gestão de pacientes e agendamento",
+            "Prescrição eletrônica e dispensação"
+          ]
+        },
+        {
+          title: "SUS Digital Gestor",
+          content: "Plataforma para gestores, com ferramentas de gestão e análise de dados. Interface administrativa para tomada de decisão.",
+          keyPoints: [
+            "Dashboards de gestão e monitoramento",
+            "Indicadores de performance e qualidade",
+            "Gestão de recursos e estoques",
+            "Relatórios e análises estratégicas"
+          ]
+        },
+        {
+          title: "E-SUS APS - Sistema de Atenção Primária",
+          content: "O E-SUS APS é o sistema de informação oficial da Atenção Primária à Saúde no Brasil, integrado ao ecossistema SUS Digital.",
+          keyPoints: [
+            "Componentes principais do sistema E-SUS APS",
+            "Fluxos de dados e sincronização",
+            "Integração com outros sistemas do SUS",
+            "Arquitetura cliente-servidor"
+          ]
+        },
+        {
+          title: "Coleta e Gestão de Dados na APS",
+          content: "Processos de coleta, validação e gestão de dados na Atenção Primária à Saúde através do E-SUS APS.",
+          keyPoints: [
+            "Fichas de coleta padronizadas",
+            "Validação de dados e consistência",
+            "Indicadores de qualidade da APS",
+            "Gestão de equipes e territórios"
+          ]
+        },
+        {
+          title: "Integração entre Plataformas",
+          content: "Como as plataformas SUS Digital e o E-SUS APS se integram e compartilham dados de forma segura e eficiente.",
+          keyPoints: [
+            "Fluxo de dados entre plataformas",
+            "Segurança e privacidade",
+            "Sincronização em tempo real",
+            "Gestão de permissões e acessos"
+          ]
+        }
+      ],
+      practicalExamples: [
+        "Uso das plataformas em municípios de diferentes portes",
+        "Casos de sucesso de implementação do E-SUS APS",
+        "Integração entre plataformas SUS Digital",
+        "Implementação do E-SUS APS em municípios",
+        "Gestão de equipes da APS e monitoramento de indicadores",
+        "Migração de sistemas legados"
+      ],
+      activities: [
+        "Exploração prática das plataformas SUS Digital",
+        "Análise de funcionalidades e casos de uso",
+        "Planejamento de implementação municipal",
+        "Análise de dados da APS e indicadores",
+        "Desenvolvimento de indicadores de qualidade",
+        "Elaboração de planos de capacitação"
+      ],
+      resources: [
+        "Manuais completos das plataformas SUS Digital",
+        "Manuais completos do E-SUS APS",
+        "Guias de uso para diferentes perfis",
+        "Guias de implementação e configuração do E-SUS APS",
+        "Suporte técnico e capacitação",
+        "Casos de estudo de implementação",
+        "Ferramentas de migração de dados",
+        "Indicadores de qualidade da APS"
+      ]
+    },
+    icon: "Building"
+  },
+  {
+    id: 6,
+    title: "Módulo 6: Leis e Regulamentações",
     duration: "1h",
     description: "Marco legal da saúde digital, LGPD, regulamentações específicas para telessaúde e proteção de dados em saúde.",
     topics: ["LGPD", "Marco legal", "Regulamentações", "Proteção de dados", "Compliance"],
@@ -276,274 +484,8 @@ export const courseModulesContent: ModuleContent[] = [
     icon: "Shield"
   },
   {
-    id: 5,
-    title: "Módulo 5: RNDS – Rede Nacional de Dados em Saúde",
-    duration: "2h",
-    description: "Como a interoperabilidade da RNDS funciona, como conectar à RNDS, integrar vs interoperar e a Rede Mineira de Dados em Saúde (RMDS).",
-    topics: ["Interoperabilidade RNDS", "Conexão à RNDS", "Integração vs Interoperação", "RMDS", "Arquitetura"],
-    detailedContent: {
-      introduction: "A RNDS é a espinha dorsal da interoperabilidade em saúde no Brasil, conectando diferentes sistemas e permitindo o compartilhamento seguro de informações.",
-      sections: [
-        {
-          title: "Arquitetura da RNDS",
-          content: "Compreensão da estrutura técnica e organizacional da RNDS. Entendimento dos componentes e fluxos de dados através do padrão FHIR.",
-          keyPoints: [
-            "Componentes principais da RNDS",
-            "Padrões de interoperabilidade (HL7 FHIR integrado)",
-            "Segurança e privacidade dos dados",
-            "Arquitetura distribuída e escalável"
-          ]
-        },
-        {
-          title: "Conexão e Integração",
-          content: "Processos para conectar sistemas à RNDS e diferenças entre integração e interoperabilidade. Foco na experiência da RMDS.",
-          keyPoints: [
-            "Protocolos de conexão e APIs",
-            "Certificação de sistemas para RNDS",
-            "Gestão de dados e consentimento",
-            "Processo de homologação"
-          ]
-        },
-        {
-          title: "Experiência da RMDS",
-          content: "A experiência da Rede Mineira de Dados em Saúde como exemplo prático de implementação de interoperabilidade.",
-          keyPoints: [
-            "Histórico e evolução da RMDS",
-            "Casos de uso implementados",
-            "Lições aprendidas",
-            "Replicabilidade para outros estados"
-          ]
-        }
-      ],
-      practicalExamples: [
-        "Conexão de sistemas municipais à RNDS",
-        "Experiência completa da RMDS",
-        "Casos de uso reais de interoperabilidade",
-        "Processo de certificação de sistemas",
-        "Implementação de APIs de saúde"
-      ],
-      activities: [
-        "Mapeamento de sistemas existentes no município",
-        "Planejamento de conexão à RNDS",
-        "Análise de interoperabilidade e padrões",
-        "Desenvolvimento de APIs de saúde",
-        "Simulação de processo de certificação"
-      ],
-      resources: [
-        "Guia Oficial RNDS: https://rnds-guia.saude.gov.br/docs/introducao",
-        "Documentação técnica completa da RNDS",
-        "Guias de implementação de interoperabilidade",
-        "Ferramentas de desenvolvimento de APIs",
-        "Casos de estudo da RMDS"
-      ]
-    },
-    icon: "Database"
-  },
-  {
-    id: 6,
-    title: "Módulo 6: Programa SUS Digital",
-    duration: "2h",
-    description: "Meu SUS Digital, SUS Digital Profissional e SUS Digital Gestor - as três plataformas principais do programa.",
-    topics: ["Meu SUS Digital", "SUS Digital Profissional", "SUS Digital Gestor", "Plataformas", "Funcionalidades"],
-    detailedContent: {
-      introduction: "O Programa SUS Digital representa a estratégia do Ministério da Saúde para digitalização dos serviços de saúde.",
-      sections: [
-        {
-          title: "Meu SUS Digital",
-          content: "Plataforma para cidadãos, permitindo acesso a serviços de saúde e informações pessoais. Interface amigável e acessível.",
-          keyPoints: [
-            "Funcionalidades para cidadãos (agendamento, resultados)",
-            "Acesso a resultados de exames",
-            "Agendamento de consultas e procedimentos",
-            "Histórico de atendimentos e vacinas"
-          ]
-        },
-        {
-          title: "SUS Digital Profissional",
-          content: "Ferramentas para profissionais de saúde, incluindo prontuário eletrônico e telemedicina. Interface especializada para médicos e enfermeiros.",
-          keyPoints: [
-            "Prontuário eletrônico do paciente (PEP)",
-            "Telemedicina e teleconsultoria",
-            "Gestão de pacientes e agendamento",
-            "Prescrição eletrônica e dispensação"
-          ]
-        },
-        {
-          title: "SUS Digital Gestor",
-          content: "Plataforma para gestores, com ferramentas de gestão e análise de dados. Interface administrativa para tomada de decisão.",
-          keyPoints: [
-            "Dashboards de gestão e monitoramento",
-            "Indicadores de performance e qualidade",
-            "Gestão de recursos e estoques",
-            "Relatórios e análises estratégicas"
-          ]
-        },
-        {
-          title: "Integração entre Plataformas",
-          content: "Como as três plataformas se integram e compartilham dados de forma segura e eficiente.",
-          keyPoints: [
-            "Fluxo de dados entre plataformas",
-            "Segurança e privacidade",
-            "Sincronização em tempo real",
-            "Gestão de permissões e acessos"
-          ]
-        }
-      ],
-      practicalExamples: [
-        "Uso das plataformas em municípios de diferentes portes",
-        "Casos de sucesso de implementação",
-        "Integração entre plataformas SUS Digital",
-        "Migração de sistemas legados",
-        "Capacitação de usuários"
-      ],
-      activities: [
-        "Exploração prática das plataformas SUS Digital",
-        "Análise de funcionalidades e casos de uso",
-        "Planejamento de implementação municipal",
-        "Desenvolvimento de planos de migração",
-        "Elaboração de planos de capacitação"
-      ],
-      resources: [
-        "Manuais completos das plataformas SUS Digital",
-        "Guias de uso para diferentes perfis",
-        "Suporte técnico e capacitação",
-        "Casos de estudo de implementação",
-        "Ferramentas de migração de dados"
-      ]
-    },
-    icon: "Building"
-  },
-  {
     id: 7,
-    title: "Módulo 7: E-SUS APS",
-    duration: "2h",
-    description: "Sistema de informação da Atenção Primária à Saúde, coleta de dados, indicadores e gestão da APS.",
-    topics: ["Atenção Primária", "Coleta de dados", "Indicadores", "Gestão APS", "Sistemas"],
-    detailedContent: {
-      introduction: "O E-SUS APS é o sistema de informação oficial da Atenção Primária à Saúde no Brasil.",
-      sections: [
-        {
-          title: "Arquitetura do E-SUS APS",
-          content: "Compreensão da estrutura e componentes do sistema E-SUS APS. Entendimento da arquitetura distribuída.",
-          keyPoints: [
-            "Componentes principais do sistema",
-            "Fluxos de dados e sincronização",
-            "Integração com outros sistemas do SUS",
-            "Arquitetura cliente-servidor"
-          ]
-        },
-        {
-          title: "Coleta e Gestão de Dados",
-          content: "Processos de coleta, validação e gestão de dados na APS. Foco na qualidade e completude dos dados.",
-          keyPoints: [
-            "Fichas de coleta padronizadas",
-            "Validação de dados e consistência",
-            "Indicadores de qualidade da APS",
-            "Gestão de equipes e territórios"
-          ]
-        },
-        {
-          title: "Indicadores e Monitoramento",
-          content: "Indicadores de qualidade e monitoramento da Atenção Primária à Saúde através do E-SUS APS.",
-          keyPoints: [
-            "Indicadores de qualidade da APS",
-            "Monitoramento de equipes",
-            "Relatórios de gestão",
-            "Avaliação de performance"
-          ]
-        }
-      ],
-      practicalExamples: [
-        "Implementação do E-SUS APS em municípios",
-        "Casos de uso reais de coleta de dados",
-        "Gestão de equipes da APS",
-        "Monitoramento de indicadores de qualidade",
-        "Integração com sistemas municipais"
-      ],
-      activities: [
-        "Análise de dados da APS e indicadores",
-        "Desenvolvimento de indicadores de qualidade",
-        "Planejamento de coleta de dados",
-        "Simulação de gestão de equipes",
-        "Elaboração de relatórios de gestão"
-      ],
-      resources: [
-        "Manuais completos do E-SUS APS",
-        "Guias de implementação e configuração",
-        "Ferramentas de análise de dados",
-        "Indicadores de qualidade da APS",
-        "Casos de estudo de implementação"
-      ]
-    },
-    icon: "FileText"
-  },
-  {
-    id: 8,
-    title: "Módulo 8: Análise e Uso de Dados em Saúde",
-    duration: "2h",
-    description: "Big data em saúde, analytics, dashboards, indicadores de performance e tomada de decisão baseada em dados.",
-    topics: ["Big data", "Analytics", "Dashboards", "Indicadores", "Tomada de decisão"],
-    detailedContent: {
-      introduction: "A análise de dados em saúde permite melhorar a qualidade do cuidado e a eficiência da gestão.",
-      sections: [
-        {
-          title: "Big Data em Saúde",
-          content: "Conceitos e aplicações de big data no contexto da saúde pública. Entendimento das fontes e técnicas de análise.",
-          keyPoints: [
-            "Fontes de dados em saúde (SIS, SINAN, etc.)",
-            "Técnicas de análise e mineração de dados",
-            "Aplicações práticas em saúde pública",
-            "Machine Learning em saúde"
-          ]
-        },
-        {
-          title: "Dashboards e Indicadores",
-          content: "Desenvolvimento e uso de dashboards para gestão em saúde. Foco na visualização e interpretação de dados.",
-          keyPoints: [
-            "Tipos de indicadores de saúde",
-            "Desenvolvimento de dashboards interativos",
-            "Interpretação de dados e tendências",
-            "Tomada de decisão baseada em dados"
-          ]
-        },
-        {
-          title: "Tomada de Decisão",
-          content: "Como usar dados para tomada de decisão em saúde pública. Análise preditiva e prescritiva.",
-          keyPoints: [
-            "Análise preditiva em saúde",
-            "Modelos de decisão",
-            "Avaliação de impacto",
-            "Monitoramento de resultados"
-          ]
-        }
-      ],
-      practicalExamples: [
-        "Dashboards de gestão municipal em tempo real",
-        "Análise de indicadores de saúde pública",
-        "Tomada de decisão baseada em dados",
-        "Predição de surtos epidemiológicos",
-        "Otimização de recursos de saúde"
-      ],
-      activities: [
-        "Desenvolvimento de indicadores de saúde",
-        "Criação de dashboards interativos",
-        "Análise de dados reais de saúde pública",
-        "Desenvolvimento de modelos preditivos",
-        "Simulação de tomada de decisão"
-      ],
-      resources: [
-        "Ferramentas de análise de dados (R, Python, Power BI)",
-        "Guias de desenvolvimento de dashboards",
-        "Casos de estudo de análise em saúde",
-        "Datasets públicos de saúde",
-        "Tutoriais de Machine Learning em saúde"
-      ]
-    },
-    icon: "BarChart3"
-  },
-  {
-    id: 9,
-    title: "Módulo 9: Materiais Complementares",
+    title: "Módulo 7: Materiais Complementares",
     duration: "Consultar",
     description: "Recursos adicionais, links para portais oficiais, documentos de referência e ferramentas práticas para implementação.",
     topics: ["Recursos adicionais", "Portais oficiais", "Documentos", "Ferramentas", "Implementação"],

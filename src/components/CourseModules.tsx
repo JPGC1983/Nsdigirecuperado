@@ -22,7 +22,7 @@ import {
   GraduationCap
 } from "lucide-react";
 import { courseModulesContent, ModuleContent } from "@/data/courseContent";
-import CourseModuleDetail from "./CourseModuleDetail";
+
 import { useProgress } from "@/contexts/ProgressContext";
 
 interface CourseModulesProps {
@@ -31,7 +31,7 @@ interface CourseModulesProps {
 
 const CourseModules = ({ onShowCartilha }: CourseModulesProps) => {
   const navigate = useNavigate();
-  const [selectedModule, setSelectedModule] = useState<ModuleContent | null>(null);
+
   const {
     progress,
     getProgressPercentage,
@@ -49,12 +49,11 @@ const CourseModules = ({ onShowCartilha }: CourseModulesProps) => {
   };
 
   const handleModuleClick = (module: ModuleContent) => {
-    setSelectedModule(module);
+    // Navegar diretamente para a página do módulo
+    navigate(`/modulos/${module.id}`);
   };
 
-  const handleCloseDetail = () => {
-    setSelectedModule(null);
-  };
+
 
   const handleStartModule = (moduleId: number) => {
     // Ativar o módulo e iniciar o estudo
@@ -88,9 +87,7 @@ const CourseModules = ({ onShowCartilha }: CourseModulesProps) => {
     };
   };
 
-  if (selectedModule) {
-    return <CourseModuleDetail module={selectedModule} onClose={handleCloseDetail} onStartModule={handleStartModule} />;
-  }
+
 
   return (
     <section className="relative py-20 bg-gradient-to-br from-slate-50 via-gray-50 to-slate-100 overflow-hidden">

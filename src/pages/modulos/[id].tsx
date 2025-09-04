@@ -266,15 +266,11 @@ const ModuloPage = () => {
                 </CardHeader>
                 <CardContent>
                   {modulo.videoUrl ? (
-                    <div className="aspect-video bg-slate-100 rounded-lg overflow-hidden">
-                      <iframe
-                        src={modulo.videoUrl}
-                        className="w-full h-full"
-                        title={`Videoaula - ${modulo.titulo}`}
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                      />
+                    <div className="aspect-video bg-slate-900 rounded-lg overflow-hidden">
+                      <video controls className="w-full h-full">
+                        <source src={modulo.videoUrl} type="video/mp4" />
+                        Seu navegador não suporta a reprodução de vídeo.
+                      </video>
                     </div>
                   ) : (
                     <div className="aspect-video bg-gradient-to-br from-slate-50 to-gray-100 rounded-lg border-2 border-dashed border-slate-300 flex items-center justify-center">
